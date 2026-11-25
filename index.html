@@ -1,179 +1,123 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Rafik Portofolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rafik Cherif | Full-Stack Software Engineer</title>
+<meta name="description" content="Rafik Cherif, full-stack software engineer building production web and mobile apps with Node.js, React, Next.js and TypeScript.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top">RC</a>
+  <nav>
+    <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+<main id="top">
+<section class="hero">
+  <p class="eyebrow">Alexandria, Egypt</p>
+  <h1>Rafik <span class="grad">Cherif</span></h1>
+  <p class="role">Full-Stack Software Engineer · Node.js · React · AI</p>
+  <p class="lead">I ship products people actually use: a US event platform, apps with 10,000+ downloads, payment flows that handle real money, and AI features in production.</p>
+  <div class="cta">
+    <a class="btn" href="#projects">See my work</a>
+    <a class="btn ghost" href="mailto:rafikcherif2024@gmail.com">Email me</a>
+  </div>
+  <ul class="stats">
+    <li><strong>3 yrs</strong><span>professional experience</span></li>
+    <li><strong>10,000+</strong><span>app downloads</span></li>
+    <li><strong>5,000+</strong><span>users on a shipped app</span></li>
+    <li><strong>1,000+</strong><span>active users on a US platform</span></li>
+  </ul>
+</section>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<section id="about">
+  <h2>About</h2>
+  <p>Full-stack engineer with three years of experience shipping real products: a US event-management platform, mobile apps on the App Store and Google Play, and a rental backend for the Saudi market. I design REST APIs, authentication, and payment flows, deploy and run services on AWS, and have shipped an LLM coaching feature and computer-vision pipelines. I also teach Operating Systems and Data Structures at Alexandria University.</p>
+</section>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1> Hi ! This is Rafik<br />
-						Portofolio</h1>
-						<p>I am a fresh graduate with a strong foundation in database management, including modeling SQL and NoSQL databases. My expertise in Python and machine learning allows me to build robust models and extract valuable insights from data. Additionally, I have experience in backend development using Node.js, enabling me to create efficient and scalable web applications. I am passionate about leveraging these skills to contribute to innovative projects and drive the success of organizations through data-driven solutions.<a 
-							href="https://github.com/Rivo11-11">GithubLink</a></p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+<section id="experience">
+  <h2>Experience</h2>
+  <article class="job">
+    <div class="meta"><h3>Software Engineer</h3><p>Identity Solutions <span>Full-time</span></p><time>2024 to present</time></div>
+    <p class="summary">Backend and web engineer across the company's production platforms and mobile apps.</p>
+    <ul>
+      <li>Architected the backend of a US event-management platform with 1,000+ active users, and cut response time on its busiest endpoints from about 150ms to 40ms.</li>
+      <li>Shipped Stripe booking and payments: 200+ registrations and about $7,000 processed, with refunds.</li>
+      <li>Built an LLM coaching feature adopted by 20% of a 5,000+ user app, and computer-vision pipelines for sports video analysis.</li>
+      <li>Run production services on AWS with zero-downtime deploys.</li>
+    </ul>
+  </article>
+  <article class="job">
+    <div class="meta"><h3>Freelance Full-Stack Developer</h3><p>Self-employed <span>Part-time</span></p><time>2025 to present</time></div>
+    <ul>
+      <li>Built the backend of a Saudi property rental platform, including SMS login and EdfaPay payments that prevent double charges.</li>
+      <li>Built and monetized a gold and currency price app on Google Play.</li>
+    </ul>
+  </article>
+  <article class="job">
+    <div class="meta"><h3>Teaching Assistant</h3><p>Alexandria University <span>Part-time</span></p><time>2024 to present</time></div>
+    <ul><li>Teach Operating Systems and Data Structures sessions and labs.</li></ul>
+  </article>
+  <p class="more">Earlier: ITI Backend Specialization, DEPI (Microsoft data engineering track), MCIT Data Engineering Diploma.</p>
+</section>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Rafik Projects</a>
-					</header>
+<section id="projects">
+  <h2>Selected projects</h2>
+  <div class="grid">
+    <article class="card feature">
+      <p class="tag">Event management, USA</p><h3>Enrollio</h3>
+      <p>Cheerleading event management platform in the USA.</p>
+      <a href="https://enrollio.com" target="_blank" rel="noopener">enrollio.com</a>
+    </article>
+    <article class="card feature">
+      <p class="tag">AI video analysis</p><h3>Cara</h3>
+      <p>AI video-analysis platform for athlete action recognition.</p>
+    </article>
+    <article class="card">
+      <p class="tag">Fantasy handball</p><h3>Handball Hub</h3>
+      <p><b>Role</b> REST APIs with real-time scoring.</p>
+      <p><b>Outcome</b> 10,000+ downloads.</p>
+    </article>
+    <article class="card">
+      <p class="tag">Shopify app, Iraq</p><h3>Shopify Aqsati Extension</h3>
+      <p><b>Role</b> Integrated the Aqsati installments service with Firebase notifications and webhooks from the original website and several Iraqi third parties.</p>
+    </article>
+    <article class="card">
+      <p class="tag">Habit tracking</p><h3>Swift Habits</h3>
+      <p><b>Role</b> LLM coach with per-user conversations.</p>
+      <p><b>Outcome</b> Used by 20% of 5,000+ users.</p>
+    </article>
+    <article class="card">
+      <p class="tag">Property rental, Saudi Arabia</p><h3>Luby</h3>
+      <p><b>Role</b> Backend: listings, SMS login, EdfaPay payments.</p>
+    </article>
+  </div>
+</section>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Rafik Projects</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/rafik-cherif-62a734290/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/Rivo11-11" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+<section id="skills">
+  <h2>Skills</h2>
+  <dl class="skills">
+    <div><dt>Languages</dt><dd>TypeScript, JavaScript, Python, C++, SQL</dd></div>
+    <div><dt>Backend</dt><dd>Node.js, Express, REST and GraphQL APIs, JWT and session auth, Stripe, EdfaPay, webhooks, PostgreSQL, MongoDB</dd></div>
+    <div><dt>Frontend</dt><dd>React, Next.js, Flutter (BLoC), responsive UI from Figma</dd></div>
+    <div><dt>AI / ML</dt><dd>LangChain, OpenAI API, YOLO, PyTorch, TensorFlow, model fine-tuning</dd></div>
+    <div><dt>Cloud and DevOps</dt><dd>AWS (EC2, S3), Docker, Nginx, PM2, Git, Jest, code review</dd></div>
+  </dl>
+  <h3 class="sub">Education and certifications</h3>
+  <ul class="plain">
+    <li>B.Eng. Computer and Communication Engineering, Alexandria University (2019 to 2024), CGPA 3.51</li>
+    <li>Backend Specialization Diploma, ITI</li>
+    <li>Data Engineering Diploma, MCIT</li>
+  </ul>
+</section>
+</main>
 
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Featured Post -->
-							<article class="post featured">
-							    <header class="major">
-							        <h2><a href="https://github.com/Rivo11-11/Dog-Breed-Classification">Dog Breed Identification</a></h2>
-							        <p>This project demonstrates my skills in deep learning with a focus on identifying dog breeds from images. Utilizing transfer learning with the InceptionV3 model, we classify images into various dog breeds effectively.</p>
-							    </header>
-							    <a href="#" class="image main"><img src="images/dog_breed.png" alt="" /></a>
-							    <ul class="actions special">
-							        <li><a href="https://github.com/Rivo11-11/Dog-Breed-Classification" class="button large">View Project</a></li>
-							    </ul>
-							</article>
-
-
-						<!-- Posts -->
-							<section class="posts">
-								<article class="post featured">
-								    <header class="major">
-								        <h2><a href="https://github.com/Rivo11-11/E-commerce-Backend-APIs">E-Commerce Application</a></h2>
-								        <p>This project showcases my skills in backend development, including API creation and database modeling. The e-commerce application leverages MongoDB for flexible and scalable data storage, and it features a robust API for handling various e-commerce operations.</p>
-								    </header>
-								    <a href="#" class="image main"><img src="images/nodejs-ecommerce-website.png" alt="" /></a>
-								    <ul class="actions special">
-								        <li><a href="https://github.com/Rivo11-11/E-commerce-Backend-APIs" class="button large">View Project</a></li>
-								    </ul>
-								</article>
-
-								<article class="post featured">
-									<header class="major">
-										<h2><a href="https://github.com/Rivo11-11/NLP-Blackcoffer-internership">NLP / Web Scrapping </a></h2>
-										<p>Implemented Natural Language Processing (NLP) techniques on web-scraped data from a website, extracting valuable insights and patterns for analysis.</p>
-			
-									</header>
-									<a href="#" class="image main"><img src="images/nlp.jpeg" alt="" /></a>
-									<ul class="actions special">
-										<li><a href="https://github.com/Rivo11-11/NLP-Blackcoffer-internership" class="button large">View Project</a></li>
-									</ul>
-								</article>
-								<article class="post featured">
-								    <header class="major">
-								        <h2><a href="https://github.com/Rivo11-11/Chat-Application">ChatApplication</a></h2>
-								        <p>This project demonstrates my ability to build real-time applications using the MERN stack. ChatApplication features user authentication, real-time messaging with Socket.io, and online status indicators, providing a seamless and interactive chat experience.</p>
-								    </header>
-								    <a href="#" class="image main"><img src="images/chat.png" alt="" /></a>
-								    <ul class="actions special">
-								        <li><a href="https://github.com/Rivo11-11/Chat-Application" class="button large">View Project</a></li>
-								    </ul>
-								</article>
-
-								<article class="post featured">
-								    <header class="major">
-								        <h2><a href="https://github.com/Rivo11-11/Touring-Machine-Simulator">Turing Machine Simulator</a></h2>
-								        <p>This project is a Turing machine simulator implemented in C++. It provides an interactive interface to define and execute Turing machines, offering a hands-on approach to understanding this fundamental model of computation.</p>
-								    </header>
-								    <a href="#" class="image main"><img src="images/touring.jpeg" alt="" /></a>
-								    <ul class="actions special">
-								        <li><a href="https://github.com/Rivo11-11/Touring-Machine-Simulator" class="button large">View Project</a></li>
-								    </ul>
-								</article>
-
-									<article>
-									<header>
-										<h2><a href="https://github.com/Rivo11-11/Face_Recognization">Face Recognization</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/face.png" alt="" /></a>
-									<p>Face Recognition Using PCA , Simpler Classifer KNN</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Rivo11-11/Face_Recognization" class="button">View Project</a></li>
-									</ul>
-								</article>
-						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
-									<a href="index2.html" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div>
-							</footer>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p>Alexandria,Egypt</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">01279111530</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">rafik11111@yahoo.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/rafik-cherif-62a734290/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/Rivo11-11" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<!-- <div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div> -->
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+<footer id="contact">
+  <h2>Contact</h2>
+  <p><a href="mailto:rafikcherif2024@gmail.com">rafikcherif2024@gmail.com</a></p>
+  <p><a href="https://linkedin.com/in/rafik-cherif-62a734290">LinkedIn</a> · <a href="https://github.com/Rivo11-11">GitHub</a> · <a href="https://leetcode.com/Rivo11">LeetCode</a></p>
+</footer>
+</body>
 </html>
